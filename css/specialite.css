@@ -1,85 +1,63 @@
+body{
+    background-color:rgb(217, 235, 245);
+}
 header{
-    display: flex;
-    background-color: #0068b2;
-    width: 1333px;
-    height: 84px;
-    position: fixed;
-    box-shadow: 2px 10px 10px rgb(82, 81, 81);
-    top: 5px;
+    margin-bottom: 35px;
 }
-.logo{
-    width: 150px;
-    height: 84px;
-    margin-left: 200px;
-}
-.sousmenu{
-    padding-left: 0;
-    display: none ;
-    background-color: #f4940a;
-    z-index: 1;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-li{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-}
-.menu {
-    display: flex;
+.nav  li{
     float: left;
-    margin: 20px;
-    
+    display: flex;
+    margin: 10px;
+    margin-top: 0;
+    background-color: #23a538;
+    padding: 5px;
+    margin-bottom: 18px;
 }
-.a a{
-    color: #23a538;
-    background-color: white;
-    padding: 3px;
+.nav li:hover{
+    box-shadow: 5px 3px 5px;
     border-radius: 10px;
 }
-.sousmenu li{
-margin: 8px;
+.nav li a {
+    color: white;
+    font-size: 27px;
 }
-.sousmenu li a{
-    color: rgb(205, 206, 206);
+.spe{
+    font-size: 40px;
+    padding: 5px;
+    background-color:#f4930aa1;
+    margin: 35px;
+    width: 210px;
 }
-.menu:hover .sousmenu{
-    display: block;
-    box-shadow: 5px 4px 3px rgb(141, 130, 130);
-    
+.specia{
+    margin-top: 35px;
 }
-.menu .sousmenu li a:hover {
-    color:white;
+.specia h2{
+    background-color:#f4930a;
+    display: inline;
+    font-size: 27px;
+    color: white;
+    font-weight: 0px;
+    padding: 3px;
+    margin-left: 240px;
+    box-shadow: 1px 4px 6px #0068b2;
+}
+.for-center{
+    text-align: center;
+}
+.paragraphe p{
+    width: 500px;
+    margin-left: 240px;
+    font-size: 20px;
+}
+.img{
+    width: 450px;
+    height: 00x;
+    margin-top: 28px;
+    margin-left: 15px;
+}
+.paragraphe{
+display: flex;
+border-top: 3px solid #0068b29d;
 
 }
-.ser{
-    color: #23a538;
-    background-color: white;
-    height: 18px;
-    border-radius: 10px;
-    padding: 3px;
-}
-.ser:hover{
-    background-color: #23a538;
-    color: white;
-}
-footer{
-    display:flex;
-    background-color: #0068b2;
-    margin-top: 40px;
-}
-.footer{
-    margin: 90px;
-    margin-top: 20px;
-    margin-bottom: 0;
-}
-.footer h2{
-    background-color: #fff;
-    padding: 3px;
-    text-align: center;
-    border-radius: 20px;
-}
-.list a{
-    color:#f4940a;
-}
+

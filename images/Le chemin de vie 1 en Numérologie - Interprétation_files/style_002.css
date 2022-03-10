@@ -1,0 +1,48 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Theme URI:    https://diviextended.com/
+ Description:  A child theme of Twenty Twenty WordPress theme.
+ Author:       Elicus Technologies
+ Author URI:   https://elicus.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url("../twentytwenty/style.css");
+
+
+
+
+
+.onsale {
+    display: none !important;
+}
+
+.single-product {
+    background-color: #ffffff !important;
+}
+
+
+a.button {
+    background-color: #5abd3b !important;
+}
+
+
+.woovr-variation-active {
+    background: #FECC9B;
+}
+
+.single-product form.cart input {
+    transform: scale(1.3);
+}
+
+.qty {
+    transform: scale(1) !important;
+}
+
+
+h1.product_title.entry-title {
+    font-size: 3.4rem !important;
+}
